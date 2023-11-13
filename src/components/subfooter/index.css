@@ -1,0 +1,39 @@
+.subfooter {
+  background-color: #000;
+}
+.border-right {
+  border-right: 1px solid #000;
+}
+
+.gaga{
+  cursor: pointer;
+}
+.copyright_wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 14px !important;
+}
+.link_Allcanfarm{
+  color:#ffffff;
+  text-decoration: none;
+}
+.link_Allcanfarm:hover{
+  color:#ffff;}
+@media screen and (max-width: 768px) {
+  .copyright_wrapper{
+    display: block;
+  }
+  .nana{
+    font-size: 12px;
+    text-align: center;
+  }
+  .gaga{
+    font-size: 12px !important;  }
+  .hah{
+    margin-left: 48px;
+  }
+}
+
+

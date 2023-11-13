@@ -1,0 +1,150 @@
+.circle {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle .border {
+  /* content: ''; */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #36ba24;
+  border-radius: 50%;
+  border: 10px dashed #fff !important;
+  animation-name: Rotate;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: Rotate;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: Rotate;
+  -moz-animation-duration: 2s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: Rotate;
+  -ms-animation-duration: 2s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+}
+.circle .border:hover {
+  animation-play-state: paused;
+}
+
+.stop {
+  position: relative;
+  /* top: 45px; */
+  /* padding: 28px; */
+  /* text-align: center;
+  align-items: center;
+  justify-content: center; */
+}
+.stop h4 {
+  font-size: 15px;
+  padding: 25px;
+  text-align: center;
+}
+.main_border {
+  border: 2px dashed #36ba24;
+  width: 360px;
+  height: 190px;
+}
+.desc {
+  
+  margin-top: -75px;
+  padding: 0px 0px;
+}
+@keyframes Rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes Rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes Rotate {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-ms-keyframes Rotate {
+  from {
+    -ms-transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+  }
+}
+.stop p {
+  font-size: 12px;
+}
+
+.dash {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #36ba24 50%, transparent 50%),
+    linear-gradient(90deg, #36ba24 50%, transparent 50%),
+    linear-gradient(0deg, #36ba24 50%, transparent 50%),
+    linear-gradient(0deg, #36ba24 50%, transparent 50%);
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 16px 4px, 0px 0px, 0px 0px, 4px 0px;  
+  background-position: 0% 0%, 100% 100%, 0% 100%, 100% 0px;
+  border-radius: 5px;
+  /* padding: 0px; */
+  animation: dash 5s linear infinite;
+}
+
+@keyframes dash {
+  to {
+    background-position: 100% 0%, 0% 100%, 0% 0%, 100% 100%;
+  }
+}
+
+.dash1 {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #36ba24 50%, transparent 50%),
+    linear-gradient(90deg, #36ba24 50%, transparent 50%),
+    linear-gradient(0deg, #36ba24 50%, transparent 50%),
+    linear-gradient(0deg, #36ba24 50%, transparent 50%);
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 15px 0px, 15px 4px, 0px 0px, 0px 0px; 
+  background-position: 0% 0%, 100% 100%, 0% 100%, 100% 0px;
+  border-radius: 5px;
+  /* padding: 0px; */
+  animation: dash 5s linear infinite;
+}
+
+@keyframes dash {
+  to {
+    background-position: 100% 0%, 0% 100%, 0% 0%, 100% 100%;
+  }
+}
+@media screen and (min-width: 1024px) and (min-height: 1366px) {
+  .main_border{
+height: 17vh !important;
+  }
+}
+@media screen and (min-width: 820px) and (min-height: 1180px) {
+  .main_border{
+    height: 28vh;
+/* padding: 0 20px 0 20px; */
+      }
+}

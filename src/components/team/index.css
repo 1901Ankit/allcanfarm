@@ -1,0 +1,127 @@
+.imghvr-zoom-out-flip-vert {
+  -webkit-perspective: 50em;
+  perspective: 50em;
+}
+.imghvr-zoom-out-flip-vert figcaption {
+  opacity: 0;
+  -webkit-transform: rotateY(90deg) translate(50%, 0px) scale(0.5);
+  transform: rotateY(90deg) translate(50%, 0px) scale(0.5);
+}
+.imghvr-zoom-out-flip-vert:hover > img,
+.imghvr-zoom-out-flip-vert.hover > img {
+  -webkit-transform: rotateY(-100deg) translateX(50%) scale(0.5);
+  transform: rotateY(-100deg) translateX(50%) scale(0.5);
+  opacity: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+.imghvr-zoom-out-flip-vert:hover figcaption,
+.imghvr-zoom-out-flip-vert.hover figcaption {
+  -webkit-transform: rotateY(0deg) translate(0px, 0px) scale(1);
+  transform: rotateY(0deg) translate(0px, 0px) scale(1);
+  opacity: 1;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+[class^="imghvr-"],
+[class*=" imghvr-"] {
+  position: relative;
+  display: inline-block;
+  margin: 0px;
+  max-width: 100%;
+  background-color: #36ba2470;
+  color: #fff;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+[class^="imghvr-"] > img,
+[class*=" imghvr-"] > img {
+  vertical-align: top;
+  max-width: 100%;
+}
+[class^="imghvr-"] figcaption,
+[class*=" imghvr-"] figcaption {
+  background-color: inherit;
+  padding: 30px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+[class^="imghvr-"] h3,
+[class*=" imghvr-"] h3,
+[class^="imghvr-"] p,
+[class*=" imghvr-"] p {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+[class^="imghvr-"] a,
+[class*=" imghvr-"] a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+[class^="imghvr-"],
+[class*=" imghvr-"],
+[class^="imghvr-"]:before,
+[class^="imghvr-"]:after,
+[class*=" imghvr-"]:before,
+[class*=" imghvr-"]:after,
+[class^="imghvr-"] *,
+[class*=" imghvr-"] *,
+[class^="imghvr-"] *:before,
+[class^="imghvr-"] *:after,
+[class*=" imghvr-"] *:before,
+[class*=" imghvr-"] *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.position {
+  font-size: 13px;
+}
+.sasa{font-size: 11px;
+  text-align: justify;
+  font-weight: 400;
+  padding: 2px 2px !important;
+  margin-top: -5px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .desc {
+    font-size: 12px !important;
+  }
+  .position{margin-top: 12px !important;}
+}
+
+.f-13 {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+
+ .teamimg{height: 26vh !important;}
+ .desc {
+  font-size: 10px !important;
+  text-align: justify !important;}
+  .position {
+    font-size: 13px;}
+    .name {font-size: 20px;}
+}
+
+@media screen and  (min-width: 1024px) and (min-height:1366px){
+  .sasa {
+    font-size: 10px;
+    text-align: justify !important;}
+    .teamimg{height: 30vh !important;}
+  }

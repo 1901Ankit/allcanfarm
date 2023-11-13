@@ -1,0 +1,90 @@
+.proo{
+    background-image: url("../../assests/images/banner/contact.jpg");
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    /* background-attachment: fixed; */
+  }
+  .bg-cont {
+    /* background-color: rgba(0, 0, 0, 0.203); */
+    height: 100%;
+    color: white;
+    display: grid;
+    place-items: center;
+    align-items: center;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .proo {
+      height: 30vh;
+    }
+  }
+  @media screen and (min-width: 601px) and (max-width: 991px) {
+    .proo{
+      height: 30vh;
+    }
+  }
+
+
+@media screen and (max-width: 768px) {
+    .have{
+        font-size: 14px !important;
+    font-weight: bold;}
+        .name{
+            margin-bottom: -12px !important;
+        }
+        .send{font-size: 14px !important;
+            font-weight: 500px;}
+        .number{margin-top: 2px !important;}
+        .mail{margin-bottom: 10px !important;}
+        .buttonnn{width: 124px !important;}
+        .styles-module_whatsappButton__tVits{
+            width: 50px !important;
+            height: 48px !important;
+        }      
+        .contaaact{font-size: 15px !important;
+        }
+    .paragraph{    font-size: 14px !important;}
+    .number{font-size: 14px !important;}
+    .cll{    height: 45px !important;
+        width: 45px !important;
+        margin-top: 12px !important;
+    }
+    /* .proo{height:20vh;}  */
+} 
+
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  .proo{height: 25vh;}
+  .contaaact{font-size: 30px;
+  margin-top: 25px;}
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+  .bg-cont{
+  height: 50vh;}
+}
+
+@media screen and (min-width: 1280px) and (min-height: 800px) {
+  .proo {
+    height: 55vh;
+  }
+}
+    
+@media screen and (min-width: 1366px) and (min-height: 1024px) {
+  .proo{
+    height: 45vh;
+  }
+}
+
+
+@media screen and  (min-width: 1024px) and (min-height:1366px){
+  .proo{
+    height: 30vh;
+  } 
+}

@@ -1,0 +1,197 @@
+.bg-about {
+  background-image: url("../../assests/images/background/bg-about.webp");
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+}
+.bg__about {
+  background-color: #22222242;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.faha{
+  font-size: 15px;
+}
+.lifecycle::after {
+  content: "→";
+  position: absolute;
+  left: 34%;
+  color: #36ba24;
+  top: 46pc;
+  font-size: xxx-large;
+}
+.cycle__div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 60px; */
+}
+.tee{
+  font-size: 30px;
+  font-family: 700;
+}
+.arrow_rotate {
+  position: absolute;
+  right: 11pc;
+  top: 69pc;
+  transform: rotate(90deg);
+}
+.rotate_img {
+  transform: rotate(180deg);
+}
+.arrow_down {
+  position: relative;
+  bottom: 228px;
+  left: 66px;
+}
+.arrow_left {
+  position: absolute;
+  top: 68pc;
+  transform: rotate(270deg);
+  left: 179px;
+}
+.circle_top_left {
+  /* right: 30px; */
+  bottom: 90px;
+}
+.circle_top_right {
+  /* left: 108px; */
+  bottom: 90px;
+}
+.circle_bottom_right {
+  /* right: 20px; */
+  bottom: 90px;
+}
+.circle_bottom_left {
+  /* left: 108px; */
+  bottom: 90px;
+}
+.arrow_up {
+  position: relative;
+  left: 30px;
+}
+
+.circle__circle {
+  border: 2px solid #36ba24;
+  border-radius: 50%;
+  width: 800px;
+  height: 800px;
+  margin: auto;
+}
+
+.arrow_1 {
+  transform: rotate(270deg);
+  margin-top: 30px;
+  margin-left: 99px;
+  
+}
+/* .asa{
+  border-bottom: 2px dashed black;
+  width: 40%;
+} */
+.arrow_2 {
+  transform: rotate(90deg);
+padding: 45px 99px;
+  margin-top: 30px;
+}
+
+/* .arrowray{
+  width: 25%;
+} */
+/* 
+.arrow{
+  width: 10%;
+  height: 100px;
+} */
+
+@media screen and (max-width: 600px) {
+  .bg-about {
+    height: 25vh;
+  }
+  .mobile_hidden {
+    display: none;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 991px) {
+  .bg-about {
+    height: 32vh;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+.maati{
+  margin-left: -2px !important;
+}
+
+
+
+
+  
+.styles-module_whatsappButton__tVits{
+  margin-left: 62px;
+}
+}
+
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  .bg-about{
+    height: 25vh;
+  }
+  .lands{font-size: 18px !important;
+    width: 105% !important;
+  }  
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+  .bg-about{
+    height: 50vh;
+  }
+}
+
+@media screen and (min-width: 1280px) and (min-height: 800px) {
+  .bg-about{
+    height: 55vh;
+  }
+    }
+
+    
+@media screen and (min-width: 1366px) and (min-height: 1024px) {
+  .bg-about{
+    height: 45vh;
+  }
+}
+
+@media screen and  (min-width: 1024px) and (min-height:1366px){
+  .bg-about{
+    height: 30vh;
+  }
+ 
+  .arrow_2 {
+    transform: rotate(90deg);
+    padding: 47px 54px;
+    margin-top: 30px;
+}
+.arrow_1 {
+  transform: rotate(270deg);
+  margin-top: 30px;
+  margin-left: 55px;
+}
+}
+@media screen and  (min-width: 1440px) and (min-height:900px){
+
+ .arrow_2 {
+    transform: rotate(90deg);
+    padding: 47px 134px;
+    margin-top: 30px;
+}
+.arrow_1 {
+  transform: rotate(270deg);
+  margin-top: 30px;
+  margin-left: 128px;
+}
+}

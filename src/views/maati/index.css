@@ -1,0 +1,83 @@
+.bg_maati {
+  background-image: url("../../assests/images/maati.webp");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+}
+.overlay {
+  background-color: #22222242;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.maati{
+  font-size: 35px;
+}
+.productt{margin-left: 8px !important;}
+
+@media screen  and (max-width:600px) {
+  .bg_maati {
+    height: 30vh;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 991px) {
+  .bg_maati {
+    height: 32vh;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .dhurr{font-size: 17px;
+  margin-top: -42px;}
+  .howd{margin-top: -22px;}
+  .styles-module_whatsappButton__tVits{
+  margin-left: 2px;
+} 
+.playstore{
+height: 50px !important;
+width: 120px !important;
+margin-top: -1px !important;
+}
+.store{height: 82px;}
+.get{margin-top: 7px;
+font-size: 14px;}
+.pro{height: 146px !important;}
+.maati{
+margin-left: 65px;
+font-size: 25px;
+}
+}
+
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  .bg_maati{height: 25vh;}
+
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+  .bg_maati{
+    height: 50vh;
+  }
+}
+@media screen and (min-width: 1280px) and (min-height: 800px) {
+  .bg_maati {
+    height: 55vh;
+  }
+
+}
+@media screen and (min-width: 1366px) and (min-height: 1024px) {
+  .bg_maati{
+    height: 45vh;
+  }
+}
+
+@media screen and  (min-width: 1024px) and (min-height:1366px){
+  .bg_maati{
+    height: 30vh;
+  }
+}

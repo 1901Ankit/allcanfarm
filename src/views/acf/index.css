@@ -1,0 +1,120 @@
+.ACf {
+  background-image: url("../../assests/images/allcanfarmbanner.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  /* background-attachment: fixed; */
+}
+.bg-ACF {
+  background-color: rgba(0, 0, 0, 0.203);
+  height: 100%;
+  color: white;
+  display: grid;
+  place-items: center;
+  align-items: center;
+}
+.image_round {
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+}
+.img_rounded {
+  position: absolute;
+  border-radius: 50%;
+  width: 550px;
+  height: 550px;
+  margin-top: -580px;
+  margin-left: 110px;
+}
+.border_div {
+  border: 2px dashed #36ba24;
+  padding: 5px;
+  margin-left: 85px;
+  animation-name: angle;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes angle {
+  from {
+    --border-angle: 0turn;
+  }
+  to {
+    --border-angle: 1turn;
+  }
+}
+
+.upper_div {
+  position: relative;
+  overflow: hidden;
+}
+.process_hover:hover {
+  scale: 1.2;
+}
+.process_hover {
+  transition: 1s ease all;
+}
+
+@media screen and (max-width: 600px) {
+  .ACf {
+    height: 30vh;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 991px) {
+  .ACf {
+    height: 30vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  .our{font-size: 12px !important;}
+  .ourr{font-size: 18px !important;
+  margin-top: -22px;}
+  .ourrr{font-size: 18px !important;
+  margin-top: -72px;}
+  .trans{ margin-top: -72px !important;}
+  .allfa{margin-top: 22px;}
+  .styles-module_whatsappButton__tVits{
+    margin-left: 42px !important;
+  }
+  .maatiii{
+font-size: 32px;
+margin-left: -82px;
+margin-top: 51px;
+  }
+   
+}
+
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  .ACf {
+    height: 25vh;}
+    /* .styles-module_whatsappButton__tVits{
+      margin-left: 55px !important;} */
+  }
+  
+  @media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .ACF{
+      height: 50vh;
+    }
+  }
+
+  /* mac */
+  @media screen and (min-width: 1280px) and (min-height: 800px) {
+.ACf{
+  height: 55vh;
+}
+  }
+
+  /* ipad pro landscape */
+  @media screen and (min-width: 1366px) and (min-height: 1024px) {
+    .ACf{
+      height: 45vh;
+    }
+  }
+
+  @media screen and  (min-width: 1024px) and (min-height:1366px){
+    .ACf{
+      height: 30vh;
+    }
+
+  }
