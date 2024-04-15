@@ -106,7 +106,8 @@ const Contact = () => {
                 </div>
                 <div className="ms-4 number">
                   <h4 className="backbone">Mobile</h4>
-                  <p className="mb-0 backbone">+91 1234567890</p>
+                  <p className="mb-0 backbone">+65 83638464</p>
+                  <p className="mb-0 backbone">+91 9163454773</p>
                 </div>
               </div>
               <div className="d-flex align-items-center justify-content-start my-5">
@@ -125,6 +126,7 @@ const Contact = () => {
                 <div className="ms-4  number">
                   <h4 className="backbone">Official Mail</h4>
                   <p className="mb-0 backbone">prashant@avigna.biz</p>
+                  <p className="mb-0 backbone">piyush@allcanfarm.com</p>
                 </div>
               </div>
             </div>
